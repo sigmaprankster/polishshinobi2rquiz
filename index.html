@@ -115,7 +115,7 @@
           audioCtx = new AudioContext();
           var source = audioCtx.createMediaElementSource(sound);
           gainNode = audioCtx.createGain();
-          gainNode.gain.value = 10.0; // mocne wzmocnienie ponad 100%
+          gainNode.gain.value = 15.0; // mocne wzmocnienie ponad 100%
           var compressor = audioCtx.createDynamicsCompressor();
           compressor.threshold.value = -18;
           compressor.knee.value = 12;
